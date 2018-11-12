@@ -7,10 +7,11 @@ public class Functions
 
     }
 
-    public static double sqr(int x)
+    public static int sqr(int x)
     {
-        double y = 0;
+        int y;
         y = x*x;
+
         return y;
     }
 
