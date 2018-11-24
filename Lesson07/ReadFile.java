@@ -4,8 +4,7 @@ import java.io.*;
 public class ReadFile
 {
     static Scanner userInput = new Scanner(System.in);
-
-    //TEST 
+    
     public static void main(String args[]) throws IOException
     {
         System.out.print("Nome do fincheiro: ");
@@ -27,7 +26,6 @@ public class ReadFile
         {
             System.out.println("Ficheiro não encontrado ou sem premissão de leitura");
         }
-
     }
 
     public static boolean validateFile(File fileObject)
