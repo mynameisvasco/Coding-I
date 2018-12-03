@@ -19,7 +19,7 @@ public class Distance2points
             System.out.println("Introduza um ponto: ");
             System.out.print("Coordenada X: ");
             a.x = userInput.nextDouble();
-            System.out.print("Coordenada X: ");
+            System.out.print("Coordenada Y: ");
             a.y = userInput.nextDouble();
 
             distanceSum += distanceBetween(a, origin);
@@ -62,6 +62,8 @@ public class Distance2points
     {
         return Math.sqrt( Math.pow((a.x - b.x), 2)+ Math.pow((a.y - b.y), 2) );
     }
+
+
 }
 
 class Point2D

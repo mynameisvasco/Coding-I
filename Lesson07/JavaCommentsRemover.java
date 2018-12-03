@@ -54,7 +54,7 @@ public class JavaCommentsRemover
                     fileLines[k] = "$$$$$$$$$$$$$ THIS IS A COMMENT $$$$$$$$$$$$$";
                 }
             }
-
+ 
             fileScanner.close();
 
             File newFile = new File(newFileName);
