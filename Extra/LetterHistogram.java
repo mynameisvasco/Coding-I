@@ -152,7 +152,7 @@ public class LetterHistogram
         {
             for(int k = 0; k < textLetterFreq.length; k++)
             {
-                if(textFile.charAt(i) == textLetterFreq[k].letter)
+                if(Character.toLowerCase(textFile.charAt(i)) == textLetterFreq[k].letter)
                 {
                     textLetterFreq[k].freq += 1;
                 }
