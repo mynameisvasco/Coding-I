@@ -8,7 +8,7 @@ public class ReadPositiveInts
         String fileName = args[0];
         File fileObject = new File(fileName);
         int totalReadNumbers = 0;
-
+        
         if(ReadFile.validateFile(fileObject))
         {
             Scanner fileScanner = new Scanner(fileObject);
